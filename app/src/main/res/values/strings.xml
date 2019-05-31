@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnthropometricMeasure</string>
+    <string name="take_picture">Take picture</string>
+    <string name="input_height">Input your Height</string>
+    <string name="Ft">Feet</string>
+    <string name="Inc">Inches</string>
+    <string name="Inputbutton">Enter Height</string>
+</resources>

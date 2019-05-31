@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputHeightActvity">
+
+    <TextView
+        android:id="@+id/txt_height"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="604dp"
+        android:text="@string/input_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_height_ft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="471dp"
+        android:ems="10"
+        android:hint="@string/Ft"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_height"
+        tools:textSize="18sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/et_height_inches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="373dp"
+        android:ems="10"
+        android:hint="@string/Inc"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_height_ft"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_inputh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="221dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_height_inches" />
+
+</android.support.constraint.ConstraintLayout>
